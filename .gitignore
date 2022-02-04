@@ -1,0 +1,13 @@
+*.o
+*.so
+*.tar.gz
+*.swp
+*ptp*
+.cproject
+.project
+.settings
+*.tgz
+.vscode/
+*.tar
+build/
+lib/

@@ -8,3 +8,7 @@ ADD install.sh /root/project
 
 WORKDIR /root/project
 RUN ./install.sh
+RUN cp -rp include/ /root/include
+RUN cp -rp lib/ /root/lib
+WORKDIR /root
+RUN rm -rf project/

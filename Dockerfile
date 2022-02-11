@@ -1,4 +1,4 @@
-FROM ghcr.io/shinkw83/sioc_devel:1.0
+FROM shinkw83/sioc_devel:1.0
 MAINTAINER shinkw83@gmail.com
 
 ADD include/ /root/project/include
